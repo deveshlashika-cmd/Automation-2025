@@ -7,6 +7,7 @@ test('Home',async ({page})=>{
       await expect(page).toHaveTitle(/Playwright/);
 
       await page.pause();
+      
 });
 
 
