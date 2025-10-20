@@ -6,8 +6,10 @@ test('Home',async ({page})=>{
 
       await expect(page).toHaveTitle(/Playwright/);
 
+  
+      await page.locator("//a[normalize-space()='Docs']").click();
       await page.pause();
-      
+
 });
 
 
